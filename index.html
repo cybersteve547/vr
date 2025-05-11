@@ -2,13 +2,20 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
-    <title>MDN Games: A-Frame demo</title>
+    <title>aframe</title>
     <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
   </head>
   <body>
     <a-scene>
       <a-box position="0.5 0.5 -3" rotation="0 10 0" color="#4CC3D9"></a-box>
       <a-sky color="#DDDDDD"></a-sky>
+      <a-camera
+        position="0 1 4"
+        cursor-visible="true"
+        cursor-scale="2"
+        cursor-color="#0095DD"
+        cursor-opacity="0.5">
+      </a-camera>
     </a-scene>
   </body>
 </html>
